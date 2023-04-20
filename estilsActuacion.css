@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+
+body{
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+}
+
+h1{
+  font-family: 'Roboto',sans-serif;
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+
+
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #0032d8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(0, 125, 228);
+  }
+  
+ 
+
+  header img {
+    margin:auto;
+    width: 150px;
+  }
+
+
+
+
+.graella {
+    font-size: 14px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+
+.gridHeader{
+    text-align: left;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+
+.gridHeader h3{
+  text-align: left;
+}
+
+
+.contenidorIncidencies {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr ;
+  grid-template-rows: auto;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid lightgray;
+  
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-left: none;
+  border-right: none;
+}
+
+.contenidorIncidencies span {
+padding: 15px;
+}
+
+
+  footer{
+    margin-top: 200px;
+    margin-bottom: 50px;
+
+    opacity: 50%;
+}
